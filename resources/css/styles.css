@@ -1,0 +1,141 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+nav {
+    position: fixed;
+    line-height: 2rem;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+li {
+    display: inline-block;
+    width: 15rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    position: relative;
+    top: 3rem;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    background-image: url(../imgaes/pool.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 40rem;
+}
+
+.title .text {
+    position: relative;
+    top: 170px;
+    left: 150px;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    padding-left: 40px;
+}
+
+#meet-up {
+    background-image: url(../imgaes/block.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 40rem;
+    margin-top: 10px;
+}
+
+#meet-up .text {
+    position: relative;
+    top: 170px;
+    left: 150px;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    padding-left: 40px;
+}
+
+#major-events {
+    background-image: url(../imgaes/race.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 40rem;
+    margin-top: 10px;
+}
+
+#major-events .text {
+    position: relative;
+    top: 170px;
+    left: 150px;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    padding-left: 40px;
+}
+
+#gallery h2 {
+    text-align: center;
+    border: 2px solid black;
+    width: 10rem;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+img {
+    width: 100%;
+}
+
+.images-container img {
+    width: 25rem;
+    height: 700px;
+}
+
+#join-us {
+    width: 20rem;
+    font-size: 1rem;
+    margin: 10px auto;
+    position: relative;
+    
+}
+
+form {
+    border: 1px solid grey;
+    padding: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+footer {
+    padding: 10px;
+}
